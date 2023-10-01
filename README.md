@@ -17,5 +17,5 @@ This repository is a collection of my Python3 practice work in the concepts of:
 - creating a python virtual environment
 - using an open API and API with key
 - functions
-- classes, objects, methods, inheritance
+- classes, objects, methods, inheritance., method override, super()
 - ...etc to be continued and added
