@@ -16,3 +16,25 @@ my_robot_dog = Robot_Dog("Bud")
 my_robot_dog.walk(10)
 my_robot_dog.make_noise()
         
+        
+"""
+            If I want to override a method from the parent class, I can simply:
+            What if we also want to call the parent's eat() ? We can call the super() to call the parent's in conjunction with the child's eat ()
+            
+            
+            class Robot:
+                def eat(self):
+                    print("I'm hungry!")
+                    
+            class Robot_Dog:
+                def eat(self):
+                    super().eat()
+                    print("I like bacon!"
+                    
+            my_robot_dog = Robot_Dog("Bud")
+            my robot_dog - Robot_Dog.eat()
+            
+            ------> My name is Bud!
+                    I'm hungry!
+                    I like bacon!
+"""
