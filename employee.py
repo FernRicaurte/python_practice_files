@@ -17,7 +17,7 @@ class HourlyEmployee(Employee):
     def __init__(self,fname, lname, weekly_hours, hourly_rate):
         super().__init__(fname, lname)
         self.weekly_hours =  weekly_hours
-        self.weekly_rate =  hourly_rate
+        self.hourly_rate =  hourly_rate
         
     def calculate_paycheck(self):
-        return self.week_hours * self.hourly_rate
+        return self.weekly_hours * self.hourly_rate
