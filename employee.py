@@ -11,3 +11,13 @@ class SalaryEmployee(Employee): # I want the new SalaryEmployee to derive from p
         
     def calculate_paycheck(self):
         return self.salary/52
+    
+
+class HourlyEmployee(Employee):
+    def __init__(self,fname, lname, weekly_hours, hourly_rate):
+        super().__init__(fname, lname)
+        self.weekly_hours =  weekly_hours
+        self.weekly_rate =  hourly_rate
+        
+    def calculate_paycheck(self):
+        return self.week_hours * self.hourly_rate
