@@ -1,4 +1,4 @@
-from employee import Employee, SalaryEmployee, HourlyEmployee
+from employee import Employee, SalaryEmployee, HourlyEmployee, CommissionEmployee
 
 class Company:
     def __init__(self):
