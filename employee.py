@@ -31,6 +31,6 @@ class CommissionEmployee(SalaryEmployee):
         
     def calculate_paycheck(self):
         regular_salary = super().calculate_paycheck()
-        total_commission = self.sales_num * self.commission_rate
+        total_commission = self.sales_num * self.com_rate
         return regular_salary + total_commission
     

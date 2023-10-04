@@ -28,7 +28,7 @@ def main():
     my_company.add_employee(employee1)
     employee2 = HourlyEmployee("Lee", "Smith", 25, 50)
     my_company.add_employee(employee2)
-    employee3 = HourlyEmployee("Bob", "Brown", 40, 15)
+    employee3 = CommissionEmployee("Bob", "Brown", 30000, 5, 200)
     my_company.add_employee(employee3)
     
     my_company.display_employees()
