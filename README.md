@@ -1,7 +1,7 @@
 # python_practice_files
 Repo for all my python3 practice and work!
 
-This repository is a collection of my Python3 practice work in the concepts of:
+This repository is a collection of my Python3 practice work in the concepts/topics of:
 
 - data types
 - strings, input, output
