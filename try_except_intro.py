@@ -11,3 +11,5 @@ finally:
     for acronym in acronyms:
         print(acronym)
 print("The program keeps going...")
+
+# Where do Exceptions come from? As a Python dev, I can Raise (or throw) an Exception if a condition occurs. 
